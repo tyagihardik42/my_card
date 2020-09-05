@@ -8,7 +8,7 @@ void main() {
 }
 
 _launchPhone() async {
-  const String phone_number = 'tel:+917814971819';
+  const String phone_number = 'tel:+91xxxxxxxxxx';
   if (await canLaunch(phone_number)) {
     await launch(phone_number);
   } else {
@@ -112,7 +112,7 @@ class MyApp extends StatelessWidget {
                       color: Colors.teal,
                     ),
                   title: Text(
-                      '+91 78149 71819',
+                      '+91 xxxxx xxxxx',
                       style: TextStyle(
                         color: Colors.teal.shade900,
                         fontSize: 20.0,
